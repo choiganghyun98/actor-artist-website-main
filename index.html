@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Actor / Artist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="logo-floating" href="./" aria-label="Home"><img src="images/main1.png" alt="Logo"></a>
+<header class="header" id="header">
+
+  <nav class="social" aria-label="Social links">
+    <a class="s" href="https://www.instagram.com/actor.website" target="_blank" rel="noopener" aria-label="Instagram"><img src="images/ico-instagram.svg" alt=""></a>
+    <a class="s" href="https://blog.naver.com/actor-artist-website" target="_blank" rel="noopener" aria-label="Naver Blog"><img src="images/ico-naverblog.svg" alt=""></a>
+    <a class="s" href="https://www.threads.com/@actor.website/" target="_blank" rel="noopener" aria-label="Threads"><img src="images/ico-threads.svg" alt=""></a>
+    <a class="s" href="https://x.com/actor_website/" target="_blank" rel="noopener" aria-label="X"><img src="images/ico-x.svg" alt=""></a>
+    <a class="s" href="mailto:actor-artist-website@naver.com?subject=Contact" aria-label="Email"><img src="images/ico-email.svg" alt=""></a>
+  </nav>
+</header>
+
+<main class="main">
+  <section class="list" aria-label="Examples">
+
+    <a class="item" href="https://choiganghyun98.github.io/actor-artist-website-3/" target="_blank" rel="noopener">
+      <div class="desc">
+        <div class="title">actor-artist-website-3</div>
+        <div class="meta"></div>
+      </div>
+      <img src="images/ex3.jpg" alt="ex1">
+    </a>
+
+    <a class="item" href="https://choiganghyun98.github.io/actor-artist-website-2/" target="_blank" rel="noopener">
+      <div class="desc">
+        <div class="title">actor-artist-website-2</div>
+        <div class="meta"></div>
+      </div>
+      <img src="images/ex2.jpg" alt="ex2">
+    </a>
+
+    <a class="item" href="https://choiganghyun98.github.io/actor-artist-website-1/" target="_blank" rel="noopener">
+      <div class="desc">
+        <div class="title">actor-artist-website-1</div>
+        <div class="meta"></div>
+      </div>
+      <img src="images/ex1.jpg" alt="ex3">
+    </a>
+
+  </section>
+</main>
+
+<script>
+(()=>{const h=document.getElementById("header");if(!h)return;const onScroll=()=>{window.scrollY>8?h.classList.add("is-solid"):h.classList.remove("is-solid");};onScroll();window.addEventListener("scroll",onScroll,{passive:true});})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+(()=>{const h=document.getElementById("header");if(!h)return;const onScroll=()=>{window.scrollY>8?h.classList.add("is-solid"):h.classList.remove("is-solid");};onScroll();window.addEventListener("scroll",onScroll,{passive:true});})();
