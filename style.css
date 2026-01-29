@@ -16,7 +16,7 @@
 .item{display:grid;grid-template-columns:280px 1fr;gap:36px;align-items:start;text-decoration:none;color:inherit;}
 .item img{width:100%;height:auto;display:block;border-radius:2px;}
 
-.desc{padding-top:6px;}
+.desc{padding-top:6px;margin-left:24px;}
 .desc .title{font-size:15px;letter-spacing:.02em;}
 .desc .meta{margin-top:6px;font-size:12px;opacity:.55;line-height:1.4;}
 
