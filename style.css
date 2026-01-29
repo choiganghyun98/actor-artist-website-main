@@ -12,8 +12,8 @@
 .social .s:hover{opacity:1;transform:translateY(-1px);}
 
 .main{padding-top:calc(var(--headerH) + 120px);}
-.list{max-width:980px;margin:0 auto;padding:0 var(--pad) 80px;display:flex;flex-direction:column;gap:28px;}
-.item{display:grid;grid-template-columns:160px 1fr;gap:36px;align-items:start;text-decoration:none;color:inherit;}
+.list{max-width:980px;margin:0 auto;padding:0 var(--pad) 80px;display:flex;flex-direction:column;gap:28px;padding-left:20px;}
+.item{display:grid;grid-template-columns:280px 1fr;gap:36px;align-items:start;text-decoration:none;color:inherit;}
 .item img{width:100%;height:auto;display:block;border-radius:2px;}
 
 .desc{padding-top:6px;}
