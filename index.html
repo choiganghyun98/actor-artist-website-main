@@ -1,206 +1,98 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <title>Seo Jui — Actor / Korean</title>
-  <meta name="description" content="Actor / Korean — Seo Jui" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Actor / Artist</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- App Shell (mobile-first; desktop shows centered phone-like frame) -->
-  <div class="app" id="app">
-    <!-- GLOBAL BLUR BACKGROUND (uses current main image) -->
-    <div class="bg" aria-hidden="true">
-      <div class="bg__img" id="bgImg"></div>
-      <div class="bg__veil"></div>
-    </div>
 
-    <!-- TOP BAR -->
-    <header class="topbar">
-      <div class="topbar__left">
-        <a class="iconbtn" href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
-          <!-- Instagram icon -->
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9A5.5 5.5 0 0 1 16.5 22h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm9 2h-9A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4Zm-4.5 4.2a3.8 3.8 0 1 1 0 7.6 3.8 3.8 0 0 1 0-7.6Zm0 2a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6ZM17.6 6.4a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8Z"/></svg>
-        </a>
-        <a class="iconbtn" href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube">
-          <!-- YouTube icon -->
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.6 7.2a3 3 0 0 0-2.1-2.1C17.7 4.6 12 4.6 12 4.6s-5.7 0-7.5.5A3 3 0 0 0 2.4 7.2 31 31 0 0 0 2 12a31 31 0 0 0 .4 4.8 3 3 0 0 0 2.1 2.1c1.8.5 7.5.5 7.5.5s5.7 0 7.5-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 22 12a31 31 0 0 0-.4-4.8ZM10 15.3V8.7L16 12l-6 3.3Z"/></svg>
-        </a>
+<a class="logo-floating" href="./" aria-label="Home"><img src="images/main1.png" alt="Logo"></a>
+<header class="header" id="header">
+
+  <nav class="social" aria-label="Social links">
+    <a class="s" href="https://www.instagram.com/actor.website" target="_blank" rel="noopener" aria-label="Instagram"><img src="images/ico-instagram.svg" alt=""></a>
+    <a class="s" href="https://blog.naver.com/actor-artist-website" target="_blank" rel="noopener" aria-label="Naver Blog"><img src="images/ico-naverblog.svg" alt=""></a>
+    <a class="s" href="https://www.threads.com/@actor.website/" target="_blank" rel="noopener" aria-label="Threads"><img src="images/ico-threads.svg" alt=""></a>
+    <a class="s" href="https://x.com/actor_website/" target="_blank" rel="noopener" aria-label="X"><img src="images/ico-x.svg" alt=""></a>
+    <a class="s" href="mailto:actor-artist-website@naver.com?subject=Contact" aria-label="Email"><img src="images/ico-email.svg" alt=""></a>
+  </nav>
+</header>
+
+<main class="main">
+  <section class="list" aria-label="Examples">
+
+    <a class="item is-ex4" href="https://choiganghyun98.github.io/actor-artist-website-4/" target="_blank" rel="noopener">
+      <div class="desc">
+        <div class="title">actor-artist-website-4</div>
+        <div class="meta">
+          모두를 위한 뷰티 개인사이트<br>
+          단순하고 예쁘고 아름답게<br>
+          메인 프로필을 확실하게 각인시키기<br><br>
+          Everyone’s beauty personal website<br>
+          Simple, pretty, and beautiful<br>
+          Make your main profile unforgettable
+        </div>
       </div>
+      <img src="images/ex4.jpg" alt="ex4">
+    </a>
 
-      <div class="topbar__right">
-        <button class="menubtn" id="menuOpen" aria-label="Open menu">
-          <span></span><span></span><span></span>
-        </button>
+    <a class="item" href="https://choiganghyun98.github.io/actor-artist-website-3/" target="_blank" rel="noopener">
+      <div class="desc">
+        <div class="title">actor-artist-website-3</div>
+        <div class="meta">
+          배우를 위한 개인사이트<br>
+          메인 스틸과 포스터 중심의 작품형 구성<br>
+          단순한 사이트가 아닌 ‘작품’<br><br>
+          A website for actors<br>
+          A work-like layout featuring stills and posters<br>
+          Not a typical site, but a piece of work
+        </div>
       </div>
-    </header>
+      <img src="images/ex3.jpg" alt="ex3">
+    </a>
 
-    <!-- MENU OVERLAY -->
-    <div class="menu" id="menu" aria-hidden="true">
-      <button class="menu__close" id="menuClose" aria-label="Close menu">×</button>
-      <nav class="menu__nav" aria-label="Main navigation">
-        <a href="#main" class="menu__link" data-nav="main">Main</a>
-        <a href="#work" class="menu__link" data-nav="work">Work</a>
-        <a href="#about" class="menu__link" data-nav="about">About</a>
-        <a href="#contact" class="menu__link" data-nav="contact">Contact</a>
-      </nav>
-    </div>
-
-    <!-- MAIN: 4 images controlled by wheel/touch with smooth transitions -->
-    <main class="stage" id="main" data-section="main">
-      <section class="hero" id="hero">
-        <div class="hero__slides" id="heroSlides" aria-label="Main images">
-          <div class="hero__slide is-active" data-idx="0" style="background-image:url('image/main1.jpeg')"></div>
-          <div class="hero__slide" data-idx="1" style="background-image:url('image/main2.jpeg')"></div>
-          <div class="hero__slide" data-idx="2" style="background-image:url('image/main3.jpeg')"></div>
-          <div class="hero__slide" data-idx="3" style="background-image:url('image/main4.jpeg')"></div>
+    <a class="item" href="https://choiganghyun98.github.io/actor-artist-website-2/" target="_blank" rel="noopener">
+      <div class="desc">
+        <div class="title">actor-artist-website-2</div>
+        <div class="meta">
+          작가를 위한 개인 사이트<br>
+          다양한 그림과 전시 작품을 소개<br>
+          프로그램북 형식의 새로운 디자인<br>
+          *효과는 제거 가능합니다.<br><br>
+          A personal website for artists<br>
+          Showcasing a wide range of drawings and exhibition works<br>
+          A new design inspired by a programme book format<br>
+          *Effects can be removed upon request.
         </div>
+      </div>
+      <img src="images/ex2.jpg" alt="ex2">
+    </a>
 
-        <div class="hero__counter" id="heroCounter"><span id="heroNow">1</span><span class="hero__slash">/</span><span id="heroTotal">4</span></div>
-
-        <div class="hero__credit">
-          <div class="hero__role">Actor / Korean</div>
-          <div class="hero__name"><span class="ko">서주이</span> <span class="en">Seo Jui</span></div>
+    <a class="item" href="https://choiganghyun98.github.io/actor-artist-website-1/" target="_blank" rel="noopener">
+      <div class="desc">
+        <div class="title">actor-artist-website-1</div>
+        <div class="meta">
+          모든 이들을 위한 개인사이트<br>
+          가장 컴팩트한 디자인<br>
+          스크롤로 간편하게 읽기 가능<br>
+          모바일에서 가장 간편함<br><br>
+          A personal website for everyone<br>
+          The most compact design<br>
+          Easy to read with simple scrolling<br>
+          Optimized for effortless mobile viewing
         </div>
-      </section>
+      </div>
+      <img src="images/ex1.jpg" alt="ex3">
+    </a>
 
-      <!-- Sections (blur background remains visible) -->
-      <section class="panel" id="work" data-section="work" aria-label="Work section">
-        <div class="panel__inner">
-          <h2 class="panel__title">WORK</h2>
-          <div class="panel__line"></div>
+  </section>
+</main>
 
-          <!-- Work: Top featured image driven by slider -->
-          <div class="work">
-            <figure class="work__featured">
-              <img id="workFeatured" src="image/work1.jpeg" alt="Featured work image" />
-            </figure>
+<script>
+(()=>{const h=document.getElementById("header");if(!h)return;const onScroll=()=>{window.scrollY>8?h.classList.add("is-solid"):h.classList.remove("is-solid");};onScroll();window.addEventListener("scroll",onScroll,{passive:true});})();
+</script>
 
-            <!-- Work: swipeable strip (10 images) -->
-            <div class="strip" aria-label="Work image strip">
-              <div class="strip__fade strip__fade--left" aria-hidden="true"></div>
-              <div class="strip__fade strip__fade--right" aria-hidden="true"></div>
-
-              <div class="strip__track" id="workStrip" role="list">
-                <button class="strip__item is-selected" role="listitem" data-src="image/work1.jpeg" aria-label="Work image 1"><img src="image/work1.jpeg" alt="" /></button>
-                <button class="strip__item" role="listitem" data-src="image/work2.jpeg" aria-label="Work image 2"><img src="image/work2.jpeg" alt="" /></button>
-                <button class="strip__item" role="listitem" data-src="image/work3.jpeg" aria-label="Work image 3"><img src="image/work3.jpeg" alt="" /></button>
-                <button class="strip__item" role="listitem" data-src="image/work4.jpeg" aria-label="Work image 4"><img src="image/work4.jpeg" alt="" /></button>
-                <button class="strip__item" role="listitem" data-src="image/work5.jpeg" aria-label="Work image 5"><img src="image/work5.jpeg" alt="" /></button>
-                <button class="strip__item" role="listitem" data-src="image/work6.jpeg" aria-label="Work image 6"><img src="image/work6.jpeg" alt="" /></button>
-                <button class="strip__item" role="listitem" data-src="image/work7.jpeg" aria-label="Work image 7"><img src="image/work7.jpeg" alt="" /></button>
-                <button class="strip__item" role="listitem" data-src="image/work8.jpeg" aria-label="Work image 8"><img src="image/work8.jpeg" alt="" /></button>
-                <button class="strip__item" role="listitem" data-src="image/work9.jpeg" aria-label="Work image 9"><img src="image/work9.jpeg" alt="" /></button>
-                <button class="strip__item" role="listitem" data-src="image/work10.jpeg" aria-label="Work image 10"><img src="image/work10.jpeg" alt="" /></button>
-              </div>
-            </div>
-
-            <!-- Work: Accordion list (placeholders) -->
-            <div class="acc" id="workAcc">
-              <div class="acc__group">
-                <button class="acc__head" data-acc="0">
-                  <span class="acc__label">대표작</span>
-                  <span class="acc__icon" aria-hidden="true">+</span>
-                </button>
-                <div class="acc__body">
-                  <div class="acc__content">
-                    <div class="workItem">
-                      <div class="workItem__title">2025 장편영화 파편의 정원 — 이도현 감독 | 주연</div>
-                      <div class="workItem__sub">제12회 Urban Cinema Festival | Best Performance (Special Mention)</div>
-                    </div>
-                    <div class="workItem">
-                      <div class="workItem__title">2025 장편영화 유리의 온도 — 김세연 감독 | 조연</div>
-                      <div class="workItem__sub">제29회 Aurora Film Week | Official Selection</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="acc__group">
-                <button class="acc__head" data-acc="1">
-                  <span class="acc__label">SHORT FILM</span>
-                  <span class="acc__icon" aria-hidden="true">+</span>
-                </button>
-                <div class="acc__body">
-                  <div class="acc__content">
-                    <div class="workItem"><div class="workItem__title">단편 1 — 감독 | 배역</div><div class="workItem__sub">Festival / Year</div></div>
-                    <div class="workItem"><div class="workItem__title">단편 2 — 감독 | 배역</div><div class="workItem__sub">Festival / Year</div></div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="acc__group">
-                <button class="acc__head" data-acc="2">
-                  <span class="acc__label">MUSIC VIDEO</span>
-                  <span class="acc__icon" aria-hidden="true">+</span>
-                </button>
-                <div class="acc__body">
-                  <div class="acc__content">
-                    <div class="workItem"><div class="workItem__title">뮤직비디오 1 — Artist</div><div class="workItem__sub">Role / Year</div></div>
-                    <div class="workItem"><div class="workItem__title">뮤직비디오 2 — Artist</div><div class="workItem__sub">Role / Year</div></div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="acc__group">
-                <button class="acc__head" data-acc="3">
-                  <span class="acc__label">THEATRE</span>
-                  <span class="acc__icon" aria-hidden="true">+</span>
-                </button>
-                <div class="acc__body">
-                  <div class="acc__content">
-                    <div class="workItem"><div class="workItem__title">연극 1 — 극장 / 작품명</div><div class="workItem__sub">Role / Year</div></div>
-                    <div class="workItem"><div class="workItem__title">연극 2 — 극장 / 작품명</div><div class="workItem__sub">Role / Year</div></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div><!-- /work -->
-        </div>
-      </section>
-
-      <section class="panel" id="about" data-section="about" aria-label="About section">
-        <div class="panel__inner">
-          <h2 class="panel__title">ABOUT</h2>
-          <div class="panel__line"></div>
-
-          <div class="about">
-            <div class="about__photo">
-              <img src="image/about.jpeg" alt="Seo Jui portrait" />
-            </div>
-            <div class="about__text">
-              <div class="about__role">Actor / Korean</div>
-              <div class="about__name"><span class="ko">서주이</span> <span class="en">Seo Jui</span></div>
-              <p class="about__bio">
-                배우 서주이입니다.<br>
-                따뜻한 시선과 섬세한 감정으로 인물을 만들어갑니다.<br>
-                영화와 연극을 중심으로 작업하며, 장면 속 작은 흔들림까지 진심으로 담아내고 싶습니다.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="panel" id="contact" data-section="contact" aria-label="Contact section">
-        <div class="panel__inner">
-          <h2 class="panel__title">CONTACT</h2>
-          <div class="panel__line"></div>
-
-          <div class="contact">
-            <a class="contact__row" href="tel:00000000000"><span class="contact__k">T.L</span><span class="contact__dash">-</span><span class="contact__v">000.0000.0000</span></a>
-            <a class="contact__row" href="mailto:0000@0000"><span class="contact__k">E-MAILL</span><span class="contact__dash">-</span><span class="contact__v">0000@0000</span></a>
-            <a class="contact__row" href="https://instagram.com/000000" target="_blank" rel="noopener"><span class="contact__k">INSTA</span><span class="contact__dash">-</span><span class="contact__v">@000000</span></a>
-          </div>
-        </div>
-      </section>
-
-    </main>
-  </div>
-
-  <script src="script.js"></script>
 </body>
 </html>
